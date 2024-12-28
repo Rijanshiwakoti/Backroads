@@ -8,7 +8,7 @@ const SocialLinks = ({ mainClass, subClass }) => {
         const { id, herf, name } = link
         return (
           <li key={id}>
-            <a href={herf} target="_blank" rel="noopener" className={subClass}>
+            <a href={herf} target="_blank" rel="noreferrer" className={subClass}>
               <i className={name}></i>
             </a>
           </li>
